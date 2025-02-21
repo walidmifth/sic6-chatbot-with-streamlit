@@ -1,5 +1,5 @@
 # Overview
-Repository ini dibuat sebagai materi LLM-Powered Chatbot with Streamlit Samsung Innovation Campus (SIC) Batch 6. Pada repository ini digunakan streamlit sebagai user interface sehingga pengguna dapat berinteraksi langsung dengan RAG (Retrieval Augmented-Generation) yang telah dibuat. Repository ini menggunakan LangChain v0.3 dan Google Gemini sebagai modelnya.
+Repository ini dibuat sebagai materi LLM-Powered Chatbot with Streamlit. Pada repository ini digunakan streamlit sebagai user interface sehingga pengguna dapat berinteraksi langsung dengan RAG (Retrieval Augmented-Generation) yang telah dibuat. Repository ini menggunakan LangChain v0.3 dan Google Gemini sebagai modelnya.
 
 # SetUp & Installation
 Setup & Installation
@@ -20,7 +20,7 @@ Example:
 GROQ_API_KEY = "GROQQ API KEY"
 GOOGLE_API_KEY = "GOOGLE API KEY"
 ```
-4. Run Streamlit di local kalian!
+4. Run Streamlit di local
 ```bash
 streamlit run main.py
 ```
