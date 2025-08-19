@@ -17,7 +17,7 @@ pip install -r requirements.txt
 buat file dengan nama `.env` kemudian isi file tersebut dengan API Keys sebagai berikut
 Example:
 ```bash
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "gsk_.."
 GOOGLE_API_KEY = "AIzaSyB-kJaeapzAc-sK_xfDA3szEr1ZstPusK8"
 ```
 4. Run Streamlit di local
