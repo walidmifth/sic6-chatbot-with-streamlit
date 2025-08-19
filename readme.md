@@ -18,7 +18,7 @@ buat file dengan nama `.env` kemudian isi file tersebut dengan API Keys sebagai 
 Example:
 ```bash
 GROQ_API_KEY = "gsk_.."
-GOOGLE_API_KEY = "AIzaSyB-kJaeapzAc-sK_xfDA3szEr1ZstPusK8"
+GOOGLE_API_KEY = "AIzaSyB..."
 ```
 4. Run Streamlit di local
 ```bash
