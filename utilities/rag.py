@@ -24,7 +24,7 @@ class RAG:
         self.graph_builder.add_edge(START, "retrieve")
         self.graph = self.graph_builder.compile()
         
-        self.embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
+        self.embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", transport="grpc")
         self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
         self.prompt = hub.pull("rlm/rag-prompt")

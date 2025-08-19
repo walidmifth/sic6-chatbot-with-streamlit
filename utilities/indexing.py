@@ -10,7 +10,7 @@ from PyPDF2 import PdfReader
 
 class Index:
     def __init__(self, pdf):
-        embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", transport="grpc")
         index = faiss.IndexFlatL2(len(embeddings.embed_query("hello world"))) #untuk mendapatkan length vectornya
         self.vector_store = FAISS(
                 embedding_function=embeddings,
